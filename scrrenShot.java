@@ -34,7 +34,7 @@ import com.relevantcodes.extentreports.LogStatus;
 	    Utility.captureScreenShot(driver,"BrowserStarted");
 	    Utility.captureScreenShot(driver,"TypeName");
 		logger.log(LogStatus.PASS, "Title is verified");
-	    driver.findElement(By.xpath("//*[@id='identifierId']")).sendKeys("shilpaskhude@gmail.com");
+	    driver.findElement(By.xpath("//*[@id='identifierId']")).sendKeys("");
 	    logger.endTest();
 	
 	
